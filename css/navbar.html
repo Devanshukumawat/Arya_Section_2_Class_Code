@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <style>
+        .navbar{
+            background-color: green;
+            color: white;
+            padding: 7px;
+        }
+
+        .navbar ul li{
+            display: inline;
+        }
+
+        .navbar ul li:hover{
+            border: 1px solid white;
+            padding: 2px;
+        }
+
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+            margin: 5px;
+        }
+
+        .search{
+            background-color: orange;
+            float: right;
+        }
+        .search select{
+            background-color: orange;
+            border: none;
+            outline: none;
+            color: white;
+        }
+
+        .search input {
+            background-color: orange;
+            border: none;
+            outline: none;
+            color: white;
+        }
+
+        .search span{
+            font-size: 12px;
+        }
+
+        .search input::placeholder{
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="\">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Services</a></li>
+            <li>
+                <div class="search">
+                    <select name="" id="">
+                        <option value="">html</option>
+                        <option value="">css</option>
+                        <option value="">js</option>
+                    </select>
+                    <input type="search" name="" id="" placeholder="search here...">
+                    <span class="material-symbols-outlined">
+                        search
+                        </span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
