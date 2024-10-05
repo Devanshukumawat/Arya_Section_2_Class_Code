@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1::after{
+            content: "😍";
+        }
+
+        @media screen and (max-width:850px) {
+            h1{
+                color: green;
+                font-size: 100px;
+            }
+            h1::after{
+                content: "🫤";
+            }
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, possimus accusamus sint perferendis iusto praesentium cum quaerat facilis dolor culpa.</p>
+
+</body>
+</html>
